@@ -1,12 +1,8 @@
-# breast-cancer-detection-logistic-regression
-Logistic Regression model for breast cancer diagnosis using the Wisconsin dataset. Achieves 98.25% accuracy and 1.00 ROC-AUC. Includes confusion matrix, ROC curve, and feature importance analysis.
 # 🔬 Breast Cancer Diagnosis Using Logistic Regression
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/MureedSajjad/breast-cancer-detection-logistic-regression/blob/main/Breast_Cancer_Detection_Logistic_Regression.ipynb)
 
-**Author:** Mureed Sajjad | 2k23/DS/77 | University of Sindh
-**Course:** Machine Learning
-
+**Author:** Mureed Sajjad | University of Sindh
 ---
 
 ## Overview
@@ -53,17 +49,7 @@ The key insight of this project is that in medical AI, **recall matters more tha
 
 ## Clinical Insight
 
-> 4 False Negatives in 114 test samples means the model would miss a small proportion of actual cancers. In a real deployment, the decision threshold would be tuned lower (e.g., 0.3) to prioritize catching all cancers, even at the cost of more false alarms.
-
-## Repository Structure
-```
-breast-cancer-logistic-regression/
-│
-├── README.md                          ← You are here
-├── Breast_Cancer_Logistic_Regression.ipynb   ← Main notebook (pre-run)
-├── requirements.txt                   ← Dependencies
-└── presentation.pdf                   ← Class presentation slides
-```
+> 1 False Negative in 114 test samples means the model missed just one actual cancer. In a real deployment, the decision threshold would be tuned lower (e.g., 0.3) to prioritize catching all cancers, even at the cost of more false alarms.
 
 ## Installation
 ```bash
