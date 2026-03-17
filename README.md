@@ -2,7 +2,7 @@
 Logistic Regression model for breast cancer diagnosis using the Wisconsin dataset. Achieves 98.25% accuracy and 1.00 ROC-AUC. Includes confusion matrix, ROC curve, and feature importance analysis.
 # 🔬 Breast Cancer Diagnosis Using Logistic Regression
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](YOUR_COLAB_LINK_HERE)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/MureedSajjad/breast-cancer-detection-logistic-regression/blob/main/Breast_Cancer_Detection_Logistic_Regression.ipynb)
 
 **Author:** Mureed Sajjad | 2k23/DS/77 | University of Sindh
 **Course:** Machine Learning
@@ -70,7 +70,7 @@ breast-cancer-logistic-regression/
 pip install numpy pandas matplotlib seaborn scikit-learn
 ```
 
-Or open directly in Google Colab (no setup required): [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](YOUR_COLAB_LINK_HERE)
+Or open directly in Google Colab (no setup required): [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/MureedSajjad/breast-cancer-detection-logistic-regression/blob/main/Breast_Cancer_Detection_Logistic_Regression.ipynb)
 
 ## Technologies
 
